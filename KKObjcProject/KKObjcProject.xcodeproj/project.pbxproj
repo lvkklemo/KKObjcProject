@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00F8243EB65700659EE0 /* KKPerson+Test1.m */; };
+		309E0102243EB65800659EE0 /* KKStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00FB243EB65700659EE0 /* KKStudent.m */; };
+		309E0103243EB65800659EE0 /* KKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00FD243EB65700659EE0 /* KKPerson.m */; };
 		84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73DE243E1312000AD7B4 /* AppDelegate.m */; };
 		84AD73E2243E1312000AD7B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73E1243E1312000AD7B4 /* ViewController.m */; };
 		84AD73E5243E1312000AD7B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD73E3243E1312000AD7B4 /* Main.storyboard */; };
 		84AD73E7243E1314000AD7B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AD73E6243E1314000AD7B4 /* Assets.xcassets */; };
 		84AD73EA243E1314000AD7B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD73E8243E1314000AD7B4 /* LaunchScreen.storyboard */; };
 		84AD73ED243E1314000AD7B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73EC243E1314000AD7B4 /* main.m */; };
-		84AD73FA243E134D000AD7B4 /* KKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73F5243E134D000AD7B4 /* KKPerson.m */; };
-		84AD73FB243E134D000AD7B4 /* KKPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73F6243E134D000AD7B4 /* KKPerson+Test1.m */; };
-		84AD73FC243E134D000AD7B4 /* KKStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73F9243E134D000AD7B4 /* KKStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		309E00F8243EB65700659EE0 /* KKPerson+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KKPerson+Test1.m"; sourceTree = "<group>"; };
+		309E00F9243EB65700659EE0 /* KKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPerson.h; sourceTree = "<group>"; };
+		309E00FB243EB65700659EE0 /* KKStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKStudent.m; sourceTree = "<group>"; };
+		309E00FC243EB65700659EE0 /* KKPerson+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KKPerson+Test1.h"; sourceTree = "<group>"; };
+		309E00FD243EB65700659EE0 /* KKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPerson.m; sourceTree = "<group>"; };
+		309E00FF243EB65700659EE0 /* KKStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKStudent.h; sourceTree = "<group>"; };
 		84AD73DA243E1312000AD7B4 /* KKObjcProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKObjcProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AD73DD243E1312000AD7B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84AD73DE243E1312000AD7B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,12 +35,6 @@
 		84AD73E9243E1314000AD7B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84AD73EB243E1314000AD7B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AD73EC243E1314000AD7B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84AD73F4243E134D000AD7B4 /* KKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPerson.h; sourceTree = "<group>"; };
-		84AD73F5243E134D000AD7B4 /* KKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPerson.m; sourceTree = "<group>"; };
-		84AD73F6243E134D000AD7B4 /* KKPerson+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KKPerson+Test1.m"; sourceTree = "<group>"; };
-		84AD73F7243E134D000AD7B4 /* KKStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKStudent.h; sourceTree = "<group>"; };
-		84AD73F8243E134D000AD7B4 /* KKPerson+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KKPerson+Test1.h"; sourceTree = "<group>"; };
-		84AD73F9243E134D000AD7B4 /* KKStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		309E00F7243EB65700659EE0 /* 1.AssociatedObject */ = {
+			isa = PBXGroup;
+			children = (
+				309E00FC243EB65700659EE0 /* KKPerson+Test1.h */,
+				309E00F8243EB65700659EE0 /* KKPerson+Test1.m */,
+				309E00F9243EB65700659EE0 /* KKPerson.h */,
+				309E00FD243EB65700659EE0 /* KKPerson.m */,
+				309E00FB243EB65700659EE0 /* KKStudent.m */,
+				309E00FF243EB65700659EE0 /* KKStudent.h */,
+			);
+			path = 1.AssociatedObject;
+			sourceTree = "<group>";
+		};
 		84AD73D1243E1312000AD7B4 = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +80,7 @@
 		84AD73DC243E1312000AD7B4 /* KKObjcProject */ = {
 			isa = PBXGroup;
 			children = (
-				84AD73F3243E1337000AD7B4 /* 1.关联对象 */,
+				309E00F7243EB65700659EE0 /* 1.AssociatedObject */,
 				84AD73DD243E1312000AD7B4 /* AppDelegate.h */,
 				84AD73DE243E1312000AD7B4 /* AppDelegate.m */,
 				84AD73E0243E1312000AD7B4 /* ViewController.h */,
@@ -79,19 +92,6 @@
 				84AD73EC243E1314000AD7B4 /* main.m */,
 			);
 			path = KKObjcProject;
-			sourceTree = "<group>";
-		};
-		84AD73F3243E1337000AD7B4 /* 1.关联对象 */ = {
-			isa = PBXGroup;
-			children = (
-				84AD73F4243E134D000AD7B4 /* KKPerson.h */,
-				84AD73F5243E134D000AD7B4 /* KKPerson.m */,
-				84AD73F8243E134D000AD7B4 /* KKPerson+Test1.h */,
-				84AD73F6243E134D000AD7B4 /* KKPerson+Test1.m */,
-				84AD73F7243E134D000AD7B4 /* KKStudent.h */,
-				84AD73F9243E134D000AD7B4 /* KKStudent.m */,
-			);
-			path = "1.关联对象";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,10 +166,10 @@
 			files = (
 				84AD73E2243E1312000AD7B4 /* ViewController.m in Sources */,
 				84AD73ED243E1314000AD7B4 /* main.m in Sources */,
-				84AD73FA243E134D000AD7B4 /* KKPerson.m in Sources */,
-				84AD73FB243E134D000AD7B4 /* KKPerson+Test1.m in Sources */,
+				309E0102243EB65800659EE0 /* KKStudent.m in Sources */,
+				309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */,
 				84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */,
-				84AD73FC243E134D000AD7B4 /* KKStudent.m in Sources */,
+				309E0103243EB65800659EE0 /* KKPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

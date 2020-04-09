@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "KKPerson.h"
-
+#import "KKPerson+Test1.h"
 @interface ViewController ()
 
 @end
@@ -17,8 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
     KKPerson*person = [[KKPerson alloc] init];
+    person.weight = 20;
+    NSLog(@"%d",person.weight);
 }
 
 - (void)test01{

@@ -11,10 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface KKPerson (Test1)
-@property(nonatomic,assign) int age;
-//分类添加属性,只会增添成f属性声明,不会y添加成员变量,和方法实现
-//- (void)setAge:(int)age;
-//- (int)age;
+@property(nonatomic,assign) int weight;
+
 @end
 
 NS_ASSUME_NONNULL_END
