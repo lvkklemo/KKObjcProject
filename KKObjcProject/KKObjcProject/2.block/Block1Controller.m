@@ -53,6 +53,12 @@ struct __main_block_impl_0 {
     block();
     NSLog(@"%@",kblock);
     
+    /*
+     kblock    __main_block_impl_0 *    0x600000b73d50    0x0000600000b73d50
+     impl    __block_impl
+     Desc    __main_block_desc_0 *    0x105982080    0x0000000105982080
+     age    int    20
+     */
 }
 
 

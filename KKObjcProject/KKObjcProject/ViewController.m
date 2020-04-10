@@ -9,7 +9,8 @@
 #import "ViewController.h"
 //#import "KKPerson.h"
 //#import "KKPerson+Test1.h"
-#import "Block1Controller.h"
+#import "Block2Controller.h"
+
 @interface ViewController ()
 
 @end
@@ -26,7 +27,7 @@
 }
 
 - (void)test01{
-    Block1Controller * block1 =[[Block1Controller alloc] init];
+    Block2Controller * block1 =[[Block2Controller alloc] init];
     [self presentViewController:block1 animated:YES completion:nil];
 }
 

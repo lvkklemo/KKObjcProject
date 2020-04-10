@@ -12,6 +12,7 @@
 		309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00F8243EB65700659EE0 /* KKPerson+Test1.m */; };
 		309E0102243EB65800659EE0 /* KKStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00FB243EB65700659EE0 /* KKStudent.m */; };
 		309E0103243EB65800659EE0 /* KKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00FD243EB65700659EE0 /* KKPerson.m */; };
+		84718B202440441A00E397AE /* Block2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84718B1F2440441A00E397AE /* Block2Controller.m */; };
 		84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73DE243E1312000AD7B4 /* AppDelegate.m */; };
 		84AD73E2243E1312000AD7B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73E1243E1312000AD7B4 /* ViewController.m */; };
 		84AD73E5243E1312000AD7B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD73E3243E1312000AD7B4 /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 		309E00FC243EB65700659EE0 /* KKPerson+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KKPerson+Test1.h"; sourceTree = "<group>"; };
 		309E00FD243EB65700659EE0 /* KKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPerson.m; sourceTree = "<group>"; };
 		309E00FF243EB65700659EE0 /* KKStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKStudent.h; sourceTree = "<group>"; };
+		84718B1E2440441A00E397AE /* Block2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block2Controller.h; sourceTree = "<group>"; };
+		84718B1F2440441A00E397AE /* Block2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block2Controller.m; sourceTree = "<group>"; };
 		84AD73DA243E1312000AD7B4 /* KKObjcProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKObjcProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AD73DD243E1312000AD7B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84AD73DE243E1312000AD7B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,6 +62,8 @@
 				302E10D924400FEA00760CD0 /* Block1Controller.h */,
 				302E10DA24400FEA00760CD0 /* Block1Controller.m */,
 				302E10DB24400FEA00760CD0 /* Block1Controller.xib */,
+				84718B1E2440441A00E397AE /* Block2Controller.h */,
+				84718B1F2440441A00E397AE /* Block2Controller.m */,
 			);
 			path = 2.block;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 				309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */,
 				302E10DC24400FEA00760CD0 /* Block1Controller.m in Sources */,
 				84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */,
+				84718B202440441A00E397AE /* Block2Controller.m in Sources */,
 				309E0103243EB65800659EE0 /* KKPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
