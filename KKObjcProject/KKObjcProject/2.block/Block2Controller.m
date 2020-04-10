@@ -14,11 +14,15 @@
 
 @implementation Block2Controller
 
+int age_= 10;
+static int height_= 11;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self test1];
+    [self test2];
 }
 
+//局部变量 捕获变量
 - (void)test1{
     
     //值传递 默认auto 自动变量 只修饰局部变量
@@ -34,6 +38,17 @@
     age = 20;
     height=21;
     block();
+}
+
+//全局变量 block直接根据age_,height_访问,不用捕获进入block
+- (void)test2{
+    void(^block)(void) = ^{
+        NSLog(@"age_ = %d,height_ = %d",age_,height_);
+    };
+    age_ = 20;
+    height_=21;
+    block();
+    //age_ = 20,height = 21
 }
 
 @end
