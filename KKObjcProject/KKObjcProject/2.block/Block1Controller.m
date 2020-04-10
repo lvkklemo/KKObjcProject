@@ -17,14 +17,42 @@
  xcrun -sdk iphoneos clang -arch arm64 -rewrite-objc main.m -o main-arm64.cpp
  block本质上也是一个OC对象，它内部也有个isa指针 
  block是封装了函数调用以及函数调用环境的OC对象
-
- 
+ block底层数据如结构体 __main_block_impl_0
  */
+
+struct __block_impl {
+    void *isa;
+    int Flags;
+    int Reserved;
+    void * FouncPtr;
+};
+
+struct __main_block_desc_0 {
+    size_t reserved;
+    size_t Block_size;
+};
+
+struct __main_block_impl_0 {
+    struct __block_impl impl;
+    struct __main_block_desc_0 *Desc;
+    int age;
+};
+
 @implementation Block1Controller
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+  
+    int age = 20;
+    void(^block)(void) = ^{
+        NSLog(@"age is %d",age);
+    };
+    
+    struct __main_block_impl_0 * kblock = (__bridge struct __main_block_impl_0 *)block;
+    NSLog(@"%@",kblock);
+    block();
+    NSLog(@"%@",kblock);
+    
 }
 
 
