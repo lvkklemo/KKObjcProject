@@ -11,9 +11,9 @@
 @implementation KKStudent
 
 + (void)load{
-    NSLog(@"KKStudent--load");
+    //NSLog(@"KKStudent--load");
 }
 + (void)initialize{
-    NSLog(@"KKStudent--initialize");
+    //NSLog(@"KKStudent--initialize");
 }
 @end

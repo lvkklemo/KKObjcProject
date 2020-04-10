@@ -11,13 +11,25 @@
 
 @implementation KKPerson (Test1)
 
-const void * kweightKey = &kweightKey;
-
 - (void)setWeight:(int)weight{
-    objc_setAssociatedObject(self, kweightKey, @(weight), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(weight), @(weight), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 - (int)weight{
-    int weight_ = [objc_getAssociatedObject(self, kweightKey) intValue];
+    
+    //隐式参数
+    //_cmd = @selector(weight);
+    int weight_ = [objc_getAssociatedObject(self, _cmd) intValue];
     return weight_;
 }
+
+//const void * kweightKey = &kweightKey;
+//
+//- (void)setWeight:(int)weight{
+//    objc_setAssociatedObject(self, kweightKey, @(weight), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+//}
+//- (int)weight{
+//    int weight_ = [objc_getAssociatedObject(self, kweightKey) intValue];
+//    return weight_;
+//}
+
 @end

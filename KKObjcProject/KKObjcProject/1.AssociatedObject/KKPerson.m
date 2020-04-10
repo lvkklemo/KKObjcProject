@@ -11,10 +11,10 @@
 @implementation KKPerson
 
 + (void)load{
-    NSLog(@"KKPerson--load");
+   // NSLog(@"KKPerson--load");
 }
 + (void)initialize{
-    NSLog(@"KKPerson--initialize");
+    //NSLog(@"KKPerson--initialize");
 }
 - (void)run{
 }
