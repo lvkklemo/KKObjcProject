@@ -19,10 +19,10 @@ static int height_= 11;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self test2];
+    [self test4];
 }
 
-//局部变量 捕获变量
+//局部变量 捕获进入block
 - (void)test1{
     
     //值传递 默认auto 自动变量 只修饰局部变量
@@ -49,6 +49,51 @@ static int height_= 11;
     height_=21;
     block();
     //age_ = 20,height = 21
+}
+
+//block的isa和superclass
+- (void)test3{
+    void(^kblock)(void) = ^{
+        NSLog(@"Hello");
+    };
+    kblock();
+    //block是一个对象,有isa指针-->block属于类
+    //__NSGlobalBlock__:__NSGlobalBlock:NSBlock:NSObject
+    NSLog(@"%@",[kblock class]);
+    NSLog(@"%@",[[kblock class] superclass]);
+    NSLog(@"%@",[[[kblock class] superclass] superclass]);
+    NSLog(@"%@",[[[[kblock class] superclass] superclass] superclass]);
+}
+
+//block的类型
+- (void)test4{
+    
+    //__NSGlobalBlock__ 没有访问auto变量 访问static全局变量的 global-block
+    void(^block1)(void) = ^{
+        NSLog(@"Hello age1");
+    };
+    
+     //__NSStackBlock__ 访问了auto变量
+    int age = 20;
+    void(^block2)(void) = ^{
+        NSLog(@"age2 = %d",age);
+    };
+    
+    NSLog(@"%@,%@,%@",[block1 class],[block2 class],[^{
+        NSLog(@"age3 = %d",age);
+    } class]);
+    
+    /*
+     __NSGlobalBlock__  数据区域,全局变量
+     __NSMallocBlock__  内存堆区和OC对象一起存放  程序动态申请内存 [NSObject alloc] malloc
+     __NSStackBlock__   内存栈段  系统自动分配内存, 局部变量
+     
+     __NSGlobalBlock__ copy   还是 __NSGlobalBlock__
+     __NSMallocBlock__ copy   还是 __NSMallocBlock__ block引用计数加1
+     __NSStackBlock__  copy   == __NSMallocBlock__
+     栈block(访问了auto变量)不安全,随时都可能销毁,使用copy把StackBlock变成MallocBlock,保证数据安全
+     */
+
 }
 
 @end
