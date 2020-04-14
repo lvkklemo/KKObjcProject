@@ -1,17 +1,16 @@
 //
-//  Runtime2Controller.h
+//  Runtime3Controller.h
 //  KKObjcProject
 //
-//  Created by 宇航 on 2020/4/13.
+//  Created by yuhanglv on 2020/4/14.
 //  Copyright © 2020 tecent. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-//方法缓存
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Runtime2Controller : UIViewController
+@interface Runtime3Controller : UIViewController
 
 @end
 

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "Runtime2Controller.h"
+#import "Runtime3Controller.h"
 @interface AppDelegate ()
 
 @end
@@ -21,7 +21,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    Runtime2Controller*vc = [[Runtime2Controller alloc] init];
+    Runtime3Controller*vc = [[Runtime3Controller alloc] init];
     UINavigationController*nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3009801124453DBB00CEAB2A /* Runtime3Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3009801024453DBB00CEAB2A /* Runtime3Controller.mm */; };
 		302E10DC24400FEA00760CD0 /* Block1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 302E10DA24400FEA00760CD0 /* Block1Controller.m */; };
 		302E10DD24400FEA00760CD0 /* Block1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302E10DB24400FEA00760CD0 /* Block1Controller.xib */; };
 		309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00F8243EB65700659EE0 /* KKPerson+Test1.m */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3009800F24453DBB00CEAB2A /* Runtime3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime3Controller.h; sourceTree = "<group>"; };
+		3009801024453DBB00CEAB2A /* Runtime3Controller.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Runtime3Controller.mm; sourceTree = "<group>"; };
 		302E10D924400FEA00760CD0 /* Block1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block1Controller.h; sourceTree = "<group>"; };
 		302E10DA24400FEA00760CD0 /* Block1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block1Controller.m; sourceTree = "<group>"; };
 		302E10DB24400FEA00760CD0 /* Block1Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Block1Controller.xib; sourceTree = "<group>"; };
@@ -162,6 +165,8 @@
 				84AE86B824440E990043639C /* Runtime1Controller.xib */,
 				84AE86BB24444B5C0043639C /* Runtime2Controller.h */,
 				84AE86BC24444B5C0043639C /* Runtime2Controller.mm */,
+				3009800F24453DBB00CEAB2A /* Runtime3Controller.h */,
+				3009801024453DBB00CEAB2A /* Runtime3Controller.mm */,
 			);
 			path = 3.runtime;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 				84AE86C72444A61C0043639C /* MJGoodStudent.m in Sources */,
 				84AE86BD24444B5C0043639C /* Runtime2Controller.mm in Sources */,
 				302E10DC24400FEA00760CD0 /* Block1Controller.m in Sources */,
+				3009801124453DBB00CEAB2A /* Runtime3Controller.mm in Sources */,
 				84AE86B924440E990043639C /* Runtime1Controller.m in Sources */,
 				84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */,
 				84AE86B02442D68A0043639C /* Block3Controller.m in Sources */,
