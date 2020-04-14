@@ -19,6 +19,15 @@
 		84AD73E7243E1314000AD7B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AD73E6243E1314000AD7B4 /* Assets.xcassets */; };
 		84AD73EA243E1314000AD7B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD73E8243E1314000AD7B4 /* LaunchScreen.storyboard */; };
 		84AD73ED243E1314000AD7B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73EC243E1314000AD7B4 /* main.m */; };
+		84AE86B02442D68A0043639C /* Block3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86AE2442D68A0043639C /* Block3Controller.m */; };
+		84AE86B12442D68A0043639C /* Block3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AE86AF2442D68A0043639C /* Block3Controller.xib */; };
+		84AE86B42442D6AF0043639C /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86B32442D6AF0043639C /* MJPerson.m */; };
+		84AE86B924440E990043639C /* Runtime1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86B724440E990043639C /* Runtime1Controller.m */; };
+		84AE86BA24440E990043639C /* Runtime1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AE86B824440E990043639C /* Runtime1Controller.xib */; };
+		84AE86BD24444B5C0043639C /* Runtime2Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86BC24444B5C0043639C /* Runtime2Controller.mm */; };
+		84AE86C024444D6B0043639C /* MJPerson1.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86BF24444D6B0043639C /* MJPerson1.m */; };
+		84AE86C62444A61C0043639C /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86C42444A61C0043639C /* MJStudent.m */; };
+		84AE86C72444A61C0043639C /* MJGoodStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86C52444A61C0043639C /* MJGoodStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +52,23 @@
 		84AD73E9243E1314000AD7B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84AD73EB243E1314000AD7B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AD73EC243E1314000AD7B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84AE86AD2442D68A0043639C /* Block3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block3Controller.h; sourceTree = "<group>"; };
+		84AE86AE2442D68A0043639C /* Block3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block3Controller.m; sourceTree = "<group>"; };
+		84AE86AF2442D68A0043639C /* Block3Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Block3Controller.xib; sourceTree = "<group>"; };
+		84AE86B22442D6AF0043639C /* MJPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		84AE86B32442D6AF0043639C /* MJPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
+		84AE86B624440E990043639C /* Runtime1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime1Controller.h; sourceTree = "<group>"; };
+		84AE86B724440E990043639C /* Runtime1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runtime1Controller.m; sourceTree = "<group>"; };
+		84AE86B824440E990043639C /* Runtime1Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Runtime1Controller.xib; sourceTree = "<group>"; };
+		84AE86BB24444B5C0043639C /* Runtime2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime2Controller.h; sourceTree = "<group>"; };
+		84AE86BC24444B5C0043639C /* Runtime2Controller.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Runtime2Controller.mm; sourceTree = "<group>"; };
+		84AE86BE24444D6B0043639C /* MJPerson1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPerson1.h; sourceTree = "<group>"; };
+		84AE86BF24444D6B0043639C /* MJPerson1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPerson1.m; sourceTree = "<group>"; };
+		84AE86C12444A5EF0043639C /* MJClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJClassInfo.h; sourceTree = "<group>"; };
+		84AE86C22444A61C0043639C /* MJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJStudent.h; sourceTree = "<group>"; };
+		84AE86C32444A61C0043639C /* MJGoodStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGoodStudent.h; sourceTree = "<group>"; };
+		84AE86C42444A61C0043639C /* MJStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJStudent.m; sourceTree = "<group>"; };
+		84AE86C52444A61C0043639C /* MJGoodStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGoodStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +90,11 @@
 				302E10DB24400FEA00760CD0 /* Block1Controller.xib */,
 				84718B1E2440441A00E397AE /* Block2Controller.h */,
 				84718B1F2440441A00E397AE /* Block2Controller.m */,
+				84AE86AD2442D68A0043639C /* Block3Controller.h */,
+				84AE86AE2442D68A0043639C /* Block3Controller.m */,
+				84AE86AF2442D68A0043639C /* Block3Controller.xib */,
+				84AE86B22442D6AF0043639C /* MJPerson.h */,
+				84AE86B32442D6AF0043639C /* MJPerson.m */,
 			);
 			path = 2.block;
 			sourceTree = "<group>";
@@ -100,6 +131,7 @@
 		84AD73DC243E1312000AD7B4 /* KKObjcProject */ = {
 			isa = PBXGroup;
 			children = (
+				84AE86B52442F52B0043639C /* 3.runtime */,
 				309E00F7243EB65700659EE0 /* 1.AssociatedObject */,
 				302E10D824400FD000760CD0 /* 2.block */,
 				84AD73DD243E1312000AD7B4 /* AppDelegate.h */,
@@ -113,6 +145,25 @@
 				84AD73EC243E1314000AD7B4 /* main.m */,
 			);
 			path = KKObjcProject;
+			sourceTree = "<group>";
+		};
+		84AE86B52442F52B0043639C /* 3.runtime */ = {
+			isa = PBXGroup;
+			children = (
+				84AE86C12444A5EF0043639C /* MJClassInfo.h */,
+				84AE86C32444A61C0043639C /* MJGoodStudent.h */,
+				84AE86C52444A61C0043639C /* MJGoodStudent.m */,
+				84AE86C22444A61C0043639C /* MJStudent.h */,
+				84AE86C42444A61C0043639C /* MJStudent.m */,
+				84AE86B624440E990043639C /* Runtime1Controller.h */,
+				84AE86B724440E990043639C /* Runtime1Controller.m */,
+				84AE86BE24444D6B0043639C /* MJPerson1.h */,
+				84AE86BF24444D6B0043639C /* MJPerson1.m */,
+				84AE86B824440E990043639C /* Runtime1Controller.xib */,
+				84AE86BB24444B5C0043639C /* Runtime2Controller.h */,
+				84AE86BC24444B5C0043639C /* Runtime2Controller.mm */,
+			);
+			path = 3.runtime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,8 +225,10 @@
 			files = (
 				84AD73EA243E1314000AD7B4 /* LaunchScreen.storyboard in Resources */,
 				302E10DD24400FEA00760CD0 /* Block1Controller.xib in Resources */,
+				84AE86BA24440E990043639C /* Runtime1Controller.xib in Resources */,
 				84AD73E7243E1314000AD7B4 /* Assets.xcassets in Resources */,
 				84AD73E5243E1312000AD7B4 /* Main.storyboard in Resources */,
+				84AE86B12442D68A0043639C /* Block3Controller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,12 +239,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AE86C024444D6B0043639C /* MJPerson1.m in Sources */,
 				84AD73E2243E1312000AD7B4 /* ViewController.m in Sources */,
 				84AD73ED243E1314000AD7B4 /* main.m in Sources */,
 				309E0102243EB65800659EE0 /* KKStudent.m in Sources */,
+				84AE86B42442D6AF0043639C /* MJPerson.m in Sources */,
 				309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */,
+				84AE86C62444A61C0043639C /* MJStudent.m in Sources */,
+				84AE86C72444A61C0043639C /* MJGoodStudent.m in Sources */,
+				84AE86BD24444B5C0043639C /* Runtime2Controller.mm in Sources */,
 				302E10DC24400FEA00760CD0 /* Block1Controller.m in Sources */,
+				84AE86B924440E990043639C /* Runtime1Controller.m in Sources */,
 				84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */,
+				84AE86B02442D68A0043639C /* Block3Controller.m in Sources */,
 				84718B202440441A00E397AE /* Block2Controller.m in Sources */,
 				309E0103243EB65800659EE0 /* KKPerson.m in Sources */,
 			);
@@ -338,13 +398,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VHRQ5Y2HAX;
 				INFOPLIST_FILE = KKObjcProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.lv.KKObjcProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,13 +416,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VHRQ5Y2HAX;
 				INFOPLIST_FILE = KKObjcProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.lv.KKObjcProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

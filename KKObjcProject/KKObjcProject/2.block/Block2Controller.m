@@ -7,6 +7,9 @@
 //
 
 #import "Block2Controller.h"
+#import "KKPerson.h"
+
+typedef void(^Test5Block)(void);
 
 @interface Block2Controller ()
 
@@ -19,7 +22,7 @@ static int height_= 11;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self test4];
+    [self test7];
 }
 
 //局部变量 捕获进入block
@@ -27,7 +30,7 @@ static int height_= 11;
     
     //值传递 默认auto 自动变量 只修饰局部变量
     auto int age = 10;
-    //height j静态局部变量 static变量
+    //height 静态局部变量 static变量
     static int height = 11;
     
     void(^block)(void) = ^{
@@ -94,6 +97,51 @@ static int height_= 11;
      栈block(访问了auto变量)不安全,随时都可能销毁,使用copy把StackBlock变成MallocBlock,保证数据安全
      */
 
+}
+
+//对象类型的auto变量01
+- (void)test5{
+    Test5Block block;
+    {
+        KKPerson*person = [[KKPerson alloc] init];
+        person.ages = 10;
+        block=^{
+            NSLog(@"-----%d",person.ages);
+            person.ages = 20;
+        };
+        
+         NSLog(@"-----%d",person.ages);
+    }
+    
+    NSLog(@"----%@",[block class]);
+    NSLog(@"-----");
+}
+//block修改变量
+//auto变量变成static变量,永久存在内存
+//__block还是autol变量 指针捕获
+- (void)test6{
+    
+    __block auto int age = 10;
+    NSLog(@"age地址1 = %p",&age);
+    Test5Block block = ^{
+        age = 20;
+        NSLog(@"age = %d",age);
+        NSLog(@"age地址2 = %p",&age);
+    };
+    NSLog(@"age地址3 = %p",&age);
+    block();
+}
+
+//block内存管理
+- (void)test7{
+    
+    __block KKPerson*obj = [[KKPerson alloc] init];
+    NSLog(@"obj地址1 = %p",&obj);
+    Test5Block block = ^{
+        NSLog(@"obj地址3 = %p",&obj);
+    };
+    NSLog(@"obj地址2 = %p",&obj);
+    block();
 }
 
 @end

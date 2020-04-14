@@ -16,6 +16,7 @@
 + (void)initialize{
     //NSLog(@"KKPerson--initialize");
 }
-- (void)run{
+- (void)dealloc{
+    NSLog(@"%s",__func__);
 }
 @end

@@ -9,7 +9,8 @@
 #import "ViewController.h"
 //#import "KKPerson.h"
 //#import "KKPerson+Test1.h"
-#import "Block2Controller.h"
+//#import "Block3Controller.h"
+#import "Runtime1Controller.h"
 
 @interface ViewController ()
 
@@ -18,17 +19,14 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-   
-//    KKPerson*person = [[KKPerson alloc] init];
-//    person.weight = 20;
-//    NSLog(@"%d",person.weight);
+    [super viewDidLoad];    
     [self test01];
 }
 
 - (void)test01{
-    Block2Controller * block1 =[[Block2Controller alloc] init];
-    [self presentViewController:block1 animated:YES completion:nil];
+    
+    Runtime1Controller * vc =[[Runtime1Controller alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

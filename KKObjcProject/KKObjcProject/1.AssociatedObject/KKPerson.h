@@ -12,7 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface KKPerson : NSObject
 @property(nonatomic,assign) int ages;
-- (void)run;
 @end
 
 NS_ASSUME_NONNULL_END
