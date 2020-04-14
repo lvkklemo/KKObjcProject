@@ -24,7 +24,8 @@
     
     MJPerson1*person = [[MJPerson1 alloc] init];
     [person personTest];
-    
+    [person personTest];
+    [person personTest];
     /*
      Person*person = ((Person *(*)(id, SEL))(void *)objc_msgSend)((id)((Person *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("Person"), sel_registerName("alloc")), sel_registerName("init"));
      ((void (*)(id, SEL))(void *)objc_msgSend)((id)person, sel_registerName("personTest"));
