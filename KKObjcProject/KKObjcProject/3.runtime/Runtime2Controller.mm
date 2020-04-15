@@ -54,7 +54,7 @@
     
     [goodStudent goodStudentTest];
     [goodStudent studentTest];
-    [goodStudent personTest];
+    [goodStudent personTest:@""];
     [goodStudent goodStudentTest];
     [goodStudent studentTest];
     

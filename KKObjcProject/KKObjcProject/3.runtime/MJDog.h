@@ -1,15 +1,17 @@
 //
-//  MJPerson1.h
+//  MJDog.h
 //  KKObjcProject
 //
-//  Created by 宇航 on 2020/4/13.
+//  Created by 宇航 on 2020/4/15.
 //  Copyright © 2020 tecent. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface MJPerson1 : NSObject
+NS_ASSUME_NONNULL_BEGIN
+
+@interface MJDog : NSObject
 - (void)personTest:(NSString*)name;
-+ (void)test;
 @end
 
+NS_ASSUME_NONNULL_END
