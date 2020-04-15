@@ -17,6 +17,9 @@
 		847EEB3E2446E0F40002098E /* MJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB3D2446E0F40002098E /* MJDog.m */; };
 		847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB40244725BE0002098E /* Runtime4Controller.m */; };
 		847EEB44244725F20002098E /* MJPerson4.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB43244725F20002098E /* MJPerson4.m */; };
+		847EEB47244737690002098E /* Person5.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB46244737690002098E /* Person5.m */; };
+		847EEB4A244737820002098E /* Runtime5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB49244737820002098E /* Runtime5Controller.m */; };
+		847EEB4D24473B9F0002098E /* Person3.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB4C24473B9F0002098E /* Person3.m */; };
 		84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73DE243E1312000AD7B4 /* AppDelegate.m */; };
 		84AD73E2243E1312000AD7B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73E1243E1312000AD7B4 /* ViewController.m */; };
 		84AD73E5243E1312000AD7B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD73E3243E1312000AD7B4 /* Main.storyboard */; };
@@ -54,6 +57,12 @@
 		847EEB40244725BE0002098E /* Runtime4Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runtime4Controller.m; sourceTree = "<group>"; };
 		847EEB42244725F20002098E /* MJPerson4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPerson4.h; sourceTree = "<group>"; };
 		847EEB43244725F20002098E /* MJPerson4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPerson4.m; sourceTree = "<group>"; };
+		847EEB45244737690002098E /* Person5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person5.h; sourceTree = "<group>"; };
+		847EEB46244737690002098E /* Person5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person5.m; sourceTree = "<group>"; };
+		847EEB48244737820002098E /* Runtime5Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime5Controller.h; sourceTree = "<group>"; };
+		847EEB49244737820002098E /* Runtime5Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runtime5Controller.m; sourceTree = "<group>"; };
+		847EEB4B24473B9F0002098E /* Person3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person3.h; sourceTree = "<group>"; };
+		847EEB4C24473B9F0002098E /* Person3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person3.m; sourceTree = "<group>"; };
 		84AD73DA243E1312000AD7B4 /* KKObjcProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKObjcProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AD73DD243E1312000AD7B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84AD73DE243E1312000AD7B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -169,12 +178,14 @@
 				84AE86C42444A61C0043639C /* MJStudent.m */,
 				84AE86B624440E990043639C /* Runtime1Controller.h */,
 				84AE86B724440E990043639C /* Runtime1Controller.m */,
-				84AE86BE24444D6B0043639C /* MJPerson1.h */,
-				84AE86BF24444D6B0043639C /* MJPerson1.m */,
 				84AE86B824440E990043639C /* Runtime1Controller.xib */,
 				84AE86BB24444B5C0043639C /* Runtime2Controller.h */,
 				84AE86BC24444B5C0043639C /* Runtime2Controller.mm */,
+				84AE86BE24444D6B0043639C /* MJPerson1.h */,
+				84AE86BF24444D6B0043639C /* MJPerson1.m */,
 				3009800F24453DBB00CEAB2A /* Runtime3Controller.h */,
+				847EEB4B24473B9F0002098E /* Person3.h */,
+				847EEB4C24473B9F0002098E /* Person3.m */,
 				3009801024453DBB00CEAB2A /* Runtime3Controller.mm */,
 				847EEB3C2446E0F40002098E /* MJDog.h */,
 				847EEB3D2446E0F40002098E /* MJDog.m */,
@@ -182,6 +193,10 @@
 				847EEB40244725BE0002098E /* Runtime4Controller.m */,
 				847EEB42244725F20002098E /* MJPerson4.h */,
 				847EEB43244725F20002098E /* MJPerson4.m */,
+				847EEB45244737690002098E /* Person5.h */,
+				847EEB46244737690002098E /* Person5.m */,
+				847EEB48244737820002098E /* Runtime5Controller.h */,
+				847EEB49244737820002098E /* Runtime5Controller.m */,
 			);
 			path = 3.runtime;
 			sourceTree = "<group>";
@@ -263,6 +278,7 @@
 				84AD73E2243E1312000AD7B4 /* ViewController.m in Sources */,
 				84AD73ED243E1314000AD7B4 /* main.m in Sources */,
 				309E0102243EB65800659EE0 /* KKStudent.m in Sources */,
+				847EEB4A244737820002098E /* Runtime5Controller.m in Sources */,
 				84AE86B42442D6AF0043639C /* MJPerson.m in Sources */,
 				847EEB44244725F20002098E /* MJPerson4.m in Sources */,
 				847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */,
@@ -275,6 +291,8 @@
 				84AE86B924440E990043639C /* Runtime1Controller.m in Sources */,
 				84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */,
 				84AE86B02442D68A0043639C /* Block3Controller.m in Sources */,
+				847EEB47244737690002098E /* Person5.m in Sources */,
+				847EEB4D24473B9F0002098E /* Person3.m in Sources */,
 				847EEB3E2446E0F40002098E /* MJDog.m in Sources */,
 				84718B202440441A00E397AE /* Block2Controller.m in Sources */,
 				309E0103243EB65800659EE0 /* KKPerson.m in Sources */,

@@ -8,6 +8,8 @@
 
 #import "MJPerson1.h"
 #import <objc/runtime.h>
+#import "Person3.h"
+
 @implementation MJPerson1
 //1.消息发送
 //- (void)personTest:(NSString*)name{
@@ -65,9 +67,49 @@ struct method_t{
 */
 
 //3.消息转发
+//- (id)forwardingTargetForSelector:(SEL)aSelector{
+//    if (aSelector == @selector(personTest:)) {
+//        return [[Person3 alloc] init];
+//    }
+//    return [super forwardingTargetForSelector:aSelector];
+//}
 
-- (id)forwardingTargetForSelector:(SEL)aSelector{
-    
-    return [super forwardingTargetForSelector:aSelector];
+//https://blog.csdn.net/zhaochen_009/article/details/54602930?utm_source=blogxgwz3
+- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector{
+        if (aSelector == @selector(personTest:)) {
+            //return [[[Person3 alloc] init] methodSignatureForSelector:@selector(personTest:)];
+            //return [NSMethodSignature signatureWithObjCTypes:"v@:*"];
+            return [[[Person3 alloc]init] methodSignatureForSelector:aSelector];
+        }
+    return [super methodSignatureForSelector:aSelector];
 }
+
+- (void)forwardInvocation:(NSInvocation *)anInvocation{
+
+    //NSInvocation包装方法调用
+    //获取NSInvocation参数
+    /*
+     NSString* name;
+     [anInvocation getArgument:&name atIndex:2];
+     */
+
+    //返回值
+    /*
+     NSString* title;
+     [anInvocation getReturnValue:&title];
+     */
+    //调用其它方法
+    /*
+     anInvocation.selector = @selector(other:);
+     [anInvocation invoke];
+     */
+    
+    //消息转发
+     [anInvocation invokeWithTarget:[[Person3 alloc]init]];
+}
+
+- (void)other:(NSString*)name{
+    NSLog(@"%@",name);
+}
+
 @end

@@ -43,4 +43,7 @@
     }
     return [super resolveInstanceMethod:sel];
 }
+- (void)doesNotRecognizeSelector:(SEL)aSelector{
+    NSLog(@"%s",__func__);
+}
 @end
