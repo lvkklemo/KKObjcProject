@@ -6,11 +6,11 @@
 //  Copyright © 2020 tecent. All rights reserved.
 //
 
-#import "KKPerson.h"
+#import "MKPerson.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MKCar : KKPerson
+@interface MKCar : MKPerson
 
 @end
 

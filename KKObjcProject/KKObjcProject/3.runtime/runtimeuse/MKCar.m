@@ -9,5 +9,8 @@
 #import "MKCar.h"
 
 @implementation MKCar
-
+- (void)run{
+    [super run];
+    NSLog(@"%s",__func__);
+}
 @end
