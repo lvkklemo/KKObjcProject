@@ -13,6 +13,11 @@
 		309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00F8243EB65700659EE0 /* KKPerson+Test1.m */; };
 		309E0102243EB65800659EE0 /* KKStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00FB243EB65700659EE0 /* KKStudent.m */; };
 		309E0103243EB65800659EE0 /* KKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00FD243EB65700659EE0 /* KKPerson.m */; };
+		30F909CB2449444E00D100C7 /* Runtime6Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909CA2449444E00D100C7 /* Runtime6Controller.m */; };
+		30F909CE2449448500D100C7 /* Person6.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909CD2449448500D100C7 /* Person6.m */; };
+		30F909D324494B5C00D100C7 /* Runtime7Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D224494B5C00D100C7 /* Runtime7Controller.m */; };
+		30F909D624494C1700D100C7 /* MKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D524494C1700D100C7 /* MKPerson.m */; };
+		30F909D924494C2F00D100C7 /* MKCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D824494C2F00D100C7 /* MKCar.m */; };
 		84718B202440441A00E397AE /* Block2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84718B1F2440441A00E397AE /* Block2Controller.m */; };
 		847EEB3E2446E0F40002098E /* MJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB3D2446E0F40002098E /* MJDog.m */; };
 		847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB40244725BE0002098E /* Runtime4Controller.m */; };
@@ -49,6 +54,17 @@
 		309E00FC243EB65700659EE0 /* KKPerson+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KKPerson+Test1.h"; sourceTree = "<group>"; };
 		309E00FD243EB65700659EE0 /* KKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPerson.m; sourceTree = "<group>"; };
 		309E00FF243EB65700659EE0 /* KKStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKStudent.h; sourceTree = "<group>"; };
+		30F909C92449444E00D100C7 /* Runtime6Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime6Controller.h; sourceTree = "<group>"; };
+		30F909CA2449444E00D100C7 /* Runtime6Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runtime6Controller.m; sourceTree = "<group>"; };
+		30F909CC2449448500D100C7 /* Person6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person6.h; sourceTree = "<group>"; };
+		30F909CD2449448500D100C7 /* Person6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person6.m; sourceTree = "<group>"; };
+		30F909CF2449497800D100C7 /* Person6.ll */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.llvm; path = Person6.ll; sourceTree = "<group>"; };
+		30F909D124494B5C00D100C7 /* Runtime7Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime7Controller.h; sourceTree = "<group>"; };
+		30F909D224494B5C00D100C7 /* Runtime7Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runtime7Controller.m; sourceTree = "<group>"; };
+		30F909D424494C1700D100C7 /* MKPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKPerson.h; sourceTree = "<group>"; };
+		30F909D524494C1700D100C7 /* MKPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKPerson.m; sourceTree = "<group>"; };
+		30F909D724494C2F00D100C7 /* MKCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCar.h; sourceTree = "<group>"; };
+		30F909D824494C2F00D100C7 /* MKCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCar.m; sourceTree = "<group>"; };
 		84718B1E2440441A00E397AE /* Block2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block2Controller.h; sourceTree = "<group>"; };
 		84718B1F2440441A00E397AE /* Block2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block2Controller.m; sourceTree = "<group>"; };
 		847EEB3C2446E0F40002098E /* MJDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJDog.h; sourceTree = "<group>"; };
@@ -133,6 +149,31 @@
 			path = 1.AssociatedObject;
 			sourceTree = "<group>";
 		};
+		30F909C82449421200D100C7 /* llvm */ = {
+			isa = PBXGroup;
+			children = (
+				30F909C92449444E00D100C7 /* Runtime6Controller.h */,
+				30F909CA2449444E00D100C7 /* Runtime6Controller.m */,
+				30F909CC2449448500D100C7 /* Person6.h */,
+				30F909CD2449448500D100C7 /* Person6.m */,
+				30F909CF2449497800D100C7 /* Person6.ll */,
+			);
+			path = llvm;
+			sourceTree = "<group>";
+		};
+		30F909D024494B2B00D100C7 /* runtimeuse */ = {
+			isa = PBXGroup;
+			children = (
+				30F909D124494B5C00D100C7 /* Runtime7Controller.h */,
+				30F909D224494B5C00D100C7 /* Runtime7Controller.m */,
+				30F909D424494C1700D100C7 /* MKPerson.h */,
+				30F909D524494C1700D100C7 /* MKPerson.m */,
+				30F909D724494C2F00D100C7 /* MKCar.h */,
+				30F909D824494C2F00D100C7 /* MKCar.m */,
+			);
+			path = runtimeuse;
+			sourceTree = "<group>";
+		};
 		84AD73D1243E1312000AD7B4 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +212,8 @@
 		84AE86B52442F52B0043639C /* 3.runtime */ = {
 			isa = PBXGroup;
 			children = (
+				30F909D024494B2B00D100C7 /* runtimeuse */,
+				30F909C82449421200D100C7 /* llvm */,
 				84AE86C12444A5EF0043639C /* MJClassInfo.h */,
 				84AE86C32444A61C0043639C /* MJGoodStudent.h */,
 				84AE86C52444A61C0043639C /* MJGoodStudent.m */,
@@ -278,15 +321,19 @@
 				84AD73E2243E1312000AD7B4 /* ViewController.m in Sources */,
 				84AD73ED243E1314000AD7B4 /* main.m in Sources */,
 				309E0102243EB65800659EE0 /* KKStudent.m in Sources */,
+				30F909CB2449444E00D100C7 /* Runtime6Controller.m in Sources */,
 				847EEB4A244737820002098E /* Runtime5Controller.m in Sources */,
 				84AE86B42442D6AF0043639C /* MJPerson.m in Sources */,
 				847EEB44244725F20002098E /* MJPerson4.m in Sources */,
 				847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */,
+				30F909D324494B5C00D100C7 /* Runtime7Controller.m in Sources */,
+				30F909CE2449448500D100C7 /* Person6.m in Sources */,
 				309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */,
 				84AE86C62444A61C0043639C /* MJStudent.m in Sources */,
 				84AE86C72444A61C0043639C /* MJGoodStudent.m in Sources */,
 				84AE86BD24444B5C0043639C /* Runtime2Controller.mm in Sources */,
 				302E10DC24400FEA00760CD0 /* Block1Controller.m in Sources */,
+				30F909D624494C1700D100C7 /* MKPerson.m in Sources */,
 				3009801124453DBB00CEAB2A /* Runtime3Controller.mm in Sources */,
 				84AE86B924440E990043639C /* Runtime1Controller.m in Sources */,
 				84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */,
@@ -294,6 +341,7 @@
 				847EEB47244737690002098E /* Person5.m in Sources */,
 				847EEB4D24473B9F0002098E /* Person3.m in Sources */,
 				847EEB3E2446E0F40002098E /* MJDog.m in Sources */,
+				30F909D924494C2F00D100C7 /* MKCar.m in Sources */,
 				84718B202440441A00E397AE /* Block2Controller.m in Sources */,
 				309E0103243EB65800659EE0 /* KKPerson.m in Sources */,
 			);

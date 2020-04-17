@@ -29,6 +29,9 @@
     [person run];
     [person test];
     [person other];
+    
+    int age = 9;
+    NSLog(@"%p",&age);
 }
 
 
