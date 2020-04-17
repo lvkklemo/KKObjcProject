@@ -82,6 +82,8 @@
  
     MJStudent * student = [[MJStudent alloc] init];
     
+    int age = 9;
+    NSLog(@"%p",&age);
 }
 
 
