@@ -11,6 +11,9 @@
 #import "Person3.h"
 
 @implementation MJPerson1
+- (void)personTest{
+    NSLog(@"%s",__func__);
+}
 //1.消息发送
 //- (void)personTest:(NSString*)name{
 //    NSLog(@"%s", __func__);

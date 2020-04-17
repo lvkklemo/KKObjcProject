@@ -20,6 +20,7 @@
 		847EEB47244737690002098E /* Person5.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB46244737690002098E /* Person5.m */; };
 		847EEB4A244737820002098E /* Runtime5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB49244737820002098E /* Runtime5Controller.m */; };
 		847EEB4D24473B9F0002098E /* Person3.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB4C24473B9F0002098E /* Person3.m */; };
+		847EEB50244749C00002098E /* NSArray+KKArr.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB4F244749C00002098E /* NSArray+KKArr.m */; };
 		84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73DE243E1312000AD7B4 /* AppDelegate.m */; };
 		84AD73E2243E1312000AD7B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73E1243E1312000AD7B4 /* ViewController.m */; };
 		84AD73E5243E1312000AD7B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD73E3243E1312000AD7B4 /* Main.storyboard */; };
@@ -63,6 +64,8 @@
 		847EEB49244737820002098E /* Runtime5Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runtime5Controller.m; sourceTree = "<group>"; };
 		847EEB4B24473B9F0002098E /* Person3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person3.h; sourceTree = "<group>"; };
 		847EEB4C24473B9F0002098E /* Person3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person3.m; sourceTree = "<group>"; };
+		847EEB4E244749C00002098E /* NSArray+KKArr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+KKArr.h"; sourceTree = "<group>"; };
+		847EEB4F244749C00002098E /* NSArray+KKArr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KKArr.m"; sourceTree = "<group>"; };
 		84AD73DA243E1312000AD7B4 /* KKObjcProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKObjcProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AD73DD243E1312000AD7B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84AD73DE243E1312000AD7B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -197,6 +200,8 @@
 				847EEB46244737690002098E /* Person5.m */,
 				847EEB48244737820002098E /* Runtime5Controller.h */,
 				847EEB49244737820002098E /* Runtime5Controller.m */,
+				847EEB4E244749C00002098E /* NSArray+KKArr.h */,
+				847EEB4F244749C00002098E /* NSArray+KKArr.m */,
 			);
 			path = 3.runtime;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				84AE86B42442D6AF0043639C /* MJPerson.m in Sources */,
 				847EEB44244725F20002098E /* MJPerson4.m in Sources */,
 				847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */,
+				847EEB50244749C00002098E /* NSArray+KKArr.m in Sources */,
 				309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */,
 				84AE86C62444A61C0043639C /* MJStudent.m in Sources */,
 				84AE86C72444A61C0043639C /* MJGoodStudent.m in Sources */,

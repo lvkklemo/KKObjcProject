@@ -10,6 +10,7 @@
 
 @interface MJPerson1 : NSObject
 - (void)personTest:(NSString*)name;
+- (void)personTest;
 + (void)test;
 @end
 

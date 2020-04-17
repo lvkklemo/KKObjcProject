@@ -18,8 +18,7 @@
 //    return self;
 //}
 
-- (void)goodStudentTest
-{
+- (void)goodStudentTest{
     NSLog(@"%s", __func__);
 }
 @end
