@@ -14,10 +14,10 @@
 		309E0102243EB65800659EE0 /* KKStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00FB243EB65700659EE0 /* KKStudent.m */; };
 		309E0103243EB65800659EE0 /* KKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 309E00FD243EB65700659EE0 /* KKPerson.m */; };
 		30F909CB2449444E00D100C7 /* Runtime6Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909CA2449444E00D100C7 /* Runtime6Controller.m */; };
-		30F909CE2449448500D100C7 /* Person6.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909CD2449448500D100C7 /* Person6.m */; };
-		30F909D324494B5C00D100C7 /* Runtime7Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D224494B5C00D100C7 /* Runtime7Controller.m */; };
 		30F909D624494C1700D100C7 /* MKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D524494C1700D100C7 /* MKPerson.m */; };
 		30F909D924494C2F00D100C7 /* MKCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D824494C2F00D100C7 /* MKCar.m */; };
+		844B4E69244E79F4001BE9DD /* Runtime7Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D224494B5C00D100C7 /* Runtime7Controller.m */; };
+		844B4E6A244E79F4001BE9DD /* Person6.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909CD2449448500D100C7 /* Person6.m */; };
 		84718B202440441A00E397AE /* Block2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84718B1F2440441A00E397AE /* Block2Controller.m */; };
 		847EEB3E2446E0F40002098E /* MJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB3D2446E0F40002098E /* MJDog.m */; };
 		847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB40244725BE0002098E /* Runtime4Controller.m */; };
@@ -322,6 +322,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844B4E69244E79F4001BE9DD /* Runtime7Controller.m in Sources */,
+				844B4E6A244E79F4001BE9DD /* Person6.m in Sources */,
 				84AE86C024444D6B0043639C /* MJPerson1.m in Sources */,
 				84AD73E2243E1312000AD7B4 /* ViewController.m in Sources */,
 				84AD73ED243E1314000AD7B4 /* main.m in Sources */,
