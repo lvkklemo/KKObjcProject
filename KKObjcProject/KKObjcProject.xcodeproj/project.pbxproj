@@ -16,8 +16,12 @@
 		30F909CB2449444E00D100C7 /* Runtime6Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909CA2449444E00D100C7 /* Runtime6Controller.m */; };
 		30F909D624494C1700D100C7 /* MKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D524494C1700D100C7 /* MKPerson.m */; };
 		30F909D924494C2F00D100C7 /* MKCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D824494C2F00D100C7 /* MKCar.m */; };
+		840F0F81245138CE00C5702F /* RunLoop1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F0F7F245138CE00C5702F /* RunLoop1Controller.m */; };
+		840F0F82245138CE00C5702F /* RunLoop1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840F0F80245138CE00C5702F /* RunLoop1Controller.xib */; };
 		844B4E69244E79F4001BE9DD /* Runtime7Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D224494B5C00D100C7 /* Runtime7Controller.m */; };
 		844B4E6A244E79F4001BE9DD /* Person6.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909CD2449448500D100C7 /* Person6.m */; };
+		844B4E6D244E821F001BE9DD /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B4E6C244E821F001BE9DD /* BaseModel.m */; };
+		844B4E75244ED780001BE9DD /* RunLoopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B4E74244ED780001BE9DD /* RunLoopController.m */; };
 		84718B202440441A00E397AE /* Block2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84718B1F2440441A00E397AE /* Block2Controller.m */; };
 		847EEB3E2446E0F40002098E /* MJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB3D2446E0F40002098E /* MJDog.m */; };
 		847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB40244725BE0002098E /* Runtime4Controller.m */; };
@@ -66,6 +70,13 @@
 		30F909D524494C1700D100C7 /* MKPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKPerson.m; sourceTree = "<group>"; };
 		30F909D724494C2F00D100C7 /* MKCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCar.h; sourceTree = "<group>"; };
 		30F909D824494C2F00D100C7 /* MKCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCar.m; sourceTree = "<group>"; };
+		840F0F7E245138CE00C5702F /* RunLoop1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoop1Controller.h; sourceTree = "<group>"; };
+		840F0F7F245138CE00C5702F /* RunLoop1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoop1Controller.m; sourceTree = "<group>"; };
+		840F0F80245138CE00C5702F /* RunLoop1Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunLoop1Controller.xib; sourceTree = "<group>"; };
+		844B4E6B244E821F001BE9DD /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		844B4E6C244E821F001BE9DD /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		844B4E73244ED780001BE9DD /* RunLoopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopController.h; sourceTree = "<group>"; };
+		844B4E74244ED780001BE9DD /* RunLoopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopController.m; sourceTree = "<group>"; };
 		84718B1E2440441A00E397AE /* Block2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block2Controller.h; sourceTree = "<group>"; };
 		84718B1F2440441A00E397AE /* Block2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block2Controller.m; sourceTree = "<group>"; };
 		847EEB3C2446E0F40002098E /* MJDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJDog.h; sourceTree = "<group>"; };
@@ -173,8 +184,54 @@
 				30F909D524494C1700D100C7 /* MKPerson.m */,
 				30F909D724494C2F00D100C7 /* MKCar.h */,
 				30F909D824494C2F00D100C7 /* MKCar.m */,
+				844B4E6B244E821F001BE9DD /* BaseModel.h */,
+				844B4E6C244E821F001BE9DD /* BaseModel.m */,
 			);
 			path = runtimeuse;
+			sourceTree = "<group>";
+		};
+		844B4E6E244EA420001BE9DD /* 4.runloop */ = {
+			isa = PBXGroup;
+			children = (
+				844B4E6F244EA420001BE9DD /* 1 */,
+				844B4E72244EA420001BE9DD /* 2 */,
+				844B4E71244EA420001BE9DD /* 3 */,
+				844B4E70244EA420001BE9DD /* 4 */,
+			);
+			path = 4.runloop;
+			sourceTree = "<group>";
+		};
+		844B4E6F244EA420001BE9DD /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				844B4E73244ED780001BE9DD /* RunLoopController.h */,
+				844B4E74244ED780001BE9DD /* RunLoopController.m */,
+				840F0F7E245138CE00C5702F /* RunLoop1Controller.h */,
+				840F0F7F245138CE00C5702F /* RunLoop1Controller.m */,
+				840F0F80245138CE00C5702F /* RunLoop1Controller.xib */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		844B4E70244EA420001BE9DD /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		844B4E71244EA420001BE9DD /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		844B4E72244EA420001BE9DD /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 2;
 			sourceTree = "<group>";
 		};
 		84AD73D1243E1312000AD7B4 = {
@@ -196,6 +253,7 @@
 		84AD73DC243E1312000AD7B4 /* KKObjcProject */ = {
 			isa = PBXGroup;
 			children = (
+				844B4E6E244EA420001BE9DD /* 4.runloop */,
 				84AE86B52442F52B0043639C /* 3.runtime */,
 				309E00F7243EB65700659EE0 /* 1.AssociatedObject */,
 				302E10D824400FD000760CD0 /* 2.block */,
@@ -310,6 +368,7 @@
 				302E10DD24400FEA00760CD0 /* Block1Controller.xib in Resources */,
 				84AE86BA24440E990043639C /* Runtime1Controller.xib in Resources */,
 				84AD73E7243E1314000AD7B4 /* Assets.xcassets in Resources */,
+				840F0F82245138CE00C5702F /* RunLoop1Controller.xib in Resources */,
 				84AD73E5243E1312000AD7B4 /* Main.storyboard in Resources */,
 				84AE86B12442D68A0043639C /* Block3Controller.xib in Resources */,
 			);
@@ -331,6 +390,7 @@
 				30F909CB2449444E00D100C7 /* Runtime6Controller.m in Sources */,
 				847EEB4A244737820002098E /* Runtime5Controller.m in Sources */,
 				84AE86B42442D6AF0043639C /* MJPerson.m in Sources */,
+				844B4E75244ED780001BE9DD /* RunLoopController.m in Sources */,
 				847EEB44244725F20002098E /* MJPerson4.m in Sources */,
 				847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */,
 				847EEB50244749C00002098E /* NSArray+KKArr.m in Sources */,
@@ -340,10 +400,12 @@
 				84AE86BD24444B5C0043639C /* Runtime2Controller.mm in Sources */,
 				302E10DC24400FEA00760CD0 /* Block1Controller.m in Sources */,
 				30F909D624494C1700D100C7 /* MKPerson.m in Sources */,
+				840F0F81245138CE00C5702F /* RunLoop1Controller.m in Sources */,
 				3009801124453DBB00CEAB2A /* Runtime3Controller.mm in Sources */,
 				84AE86B924440E990043639C /* Runtime1Controller.m in Sources */,
 				84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */,
 				84AE86B02442D68A0043639C /* Block3Controller.m in Sources */,
+				844B4E6D244E821F001BE9DD /* BaseModel.m in Sources */,
 				847EEB47244737690002098E /* Person5.m in Sources */,
 				847EEB4D24473B9F0002098E /* Person3.m in Sources */,
 				847EEB3E2446E0F40002098E /* MJDog.m in Sources */,

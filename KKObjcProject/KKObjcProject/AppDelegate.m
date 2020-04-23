@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "Runtime7Controller.h"
+#import "RunLoop1Controller.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +22,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    Runtime7Controller*vc = [[Runtime7Controller alloc] init];
+    RunLoop1Controller*vc = [[RunLoop1Controller alloc] init];
     UINavigationController*nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
