@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "RunLoop3Controller.h"
+#import "GCD1Controller.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +23,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    RunLoop3Controller*vc = [[RunLoop3Controller alloc] init];
+    GCD1Controller*vc = [[GCD1Controller alloc] init];
     UINavigationController*nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];

@@ -7,7 +7,7 @@
 //
 
 #import "RunLoop3Controller.h"
-#import "RunLoop4Controller.h"
+#import "RunLoop5Controller.h"
 //RunLoop线程保活的测试
 @interface RunLoop3Controller ()
 
@@ -21,7 +21,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    RunLoop4Controller * vc = [[RunLoop4Controller alloc] init];
+    RunLoop5Controller * vc = [[RunLoop5Controller alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

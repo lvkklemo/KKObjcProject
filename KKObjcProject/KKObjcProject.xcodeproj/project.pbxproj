@@ -22,6 +22,11 @@
 		844B4E6A244E79F4001BE9DD /* Person6.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909CD2449448500D100C7 /* Person6.m */; };
 		844B4E6D244E821F001BE9DD /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B4E6C244E821F001BE9DD /* BaseModel.m */; };
 		844B4E75244ED780001BE9DD /* RunLoopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B4E74244ED780001BE9DD /* RunLoopController.m */; };
+		845E44C1245667CD0009AF7E /* LVThreadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E44C0245667CD0009AF7E /* LVThreadTool.m */; };
+		845E44C524566ADA0009AF7E /* RunLoop5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E44C324566ADA0009AF7E /* RunLoop5Controller.m */; };
+		845E44C624566ADA0009AF7E /* RunLoop5Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845E44C424566ADA0009AF7E /* RunLoop5Controller.xib */; };
+		845E44CF24568D940009AF7E /* GCD1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E44CD24568D940009AF7E /* GCD1Controller.m */; };
+		845E44D024568D940009AF7E /* GCD1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845E44CE24568D940009AF7E /* GCD1Controller.xib */; };
 		84718B202440441A00E397AE /* Block2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84718B1F2440441A00E397AE /* Block2Controller.m */; };
 		8473EAAD2452BA4F005F5BC7 /* RunLoop2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473EAAB2452BA4F005F5BC7 /* RunLoop2Controller.m */; };
 		8473EAAE2452BA4F005F5BC7 /* RunLoop2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8473EAAC2452BA4F005F5BC7 /* RunLoop2Controller.xib */; };
@@ -84,6 +89,14 @@
 		844B4E6C244E821F001BE9DD /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		844B4E73244ED780001BE9DD /* RunLoopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopController.h; sourceTree = "<group>"; };
 		844B4E74244ED780001BE9DD /* RunLoopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopController.m; sourceTree = "<group>"; };
+		845E44BF245667CD0009AF7E /* LVThreadTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVThreadTool.h; sourceTree = "<group>"; };
+		845E44C0245667CD0009AF7E /* LVThreadTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVThreadTool.m; sourceTree = "<group>"; };
+		845E44C224566ADA0009AF7E /* RunLoop5Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoop5Controller.h; sourceTree = "<group>"; };
+		845E44C324566ADA0009AF7E /* RunLoop5Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoop5Controller.m; sourceTree = "<group>"; };
+		845E44C424566ADA0009AF7E /* RunLoop5Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunLoop5Controller.xib; sourceTree = "<group>"; };
+		845E44CC24568D940009AF7E /* GCD1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD1Controller.h; sourceTree = "<group>"; };
+		845E44CD24568D940009AF7E /* GCD1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD1Controller.m; sourceTree = "<group>"; };
+		845E44CE24568D940009AF7E /* GCD1Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCD1Controller.xib; sourceTree = "<group>"; };
 		84718B1E2440441A00E397AE /* Block2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block2Controller.h; sourceTree = "<group>"; };
 		84718B1F2440441A00E397AE /* Block2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block2Controller.m; sourceTree = "<group>"; };
 		8473EAAA2452BA4F005F5BC7 /* RunLoop2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoop2Controller.h; sourceTree = "<group>"; };
@@ -259,6 +272,53 @@
 				847717FD2455A21900364878 /* RunLoop4Controller.xib */,
 				847718002455B4CC00364878 /* LVThread.h */,
 				847718012455B4CC00364878 /* LVThread.m */,
+				845E44BF245667CD0009AF7E /* LVThreadTool.h */,
+				845E44C0245667CD0009AF7E /* LVThreadTool.m */,
+				845E44C224566ADA0009AF7E /* RunLoop5Controller.h */,
+				845E44C324566ADA0009AF7E /* RunLoop5Controller.m */,
+				845E44C424566ADA0009AF7E /* RunLoop5Controller.xib */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		845E44C724568D010009AF7E /* 5.GCD */ = {
+			isa = PBXGroup;
+			children = (
+				845E44C824568D010009AF7E /* 1 */,
+				845E44C924568D010009AF7E /* 4 */,
+				845E44CA24568D010009AF7E /* 3 */,
+				845E44CB24568D010009AF7E /* 2 */,
+			);
+			path = 5.GCD;
+			sourceTree = "<group>";
+		};
+		845E44C824568D010009AF7E /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				845E44CC24568D940009AF7E /* GCD1Controller.h */,
+				845E44CD24568D940009AF7E /* GCD1Controller.m */,
+				845E44CE24568D940009AF7E /* GCD1Controller.xib */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		845E44C924568D010009AF7E /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		845E44CA24568D010009AF7E /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		845E44CB24568D010009AF7E /* 2 */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -282,6 +342,7 @@
 		84AD73DC243E1312000AD7B4 /* KKObjcProject */ = {
 			isa = PBXGroup;
 			children = (
+				845E44C724568D010009AF7E /* 5.GCD */,
 				844B4E6E244EA420001BE9DD /* 4.runloop */,
 				84AE86B52442F52B0043639C /* 3.runtime */,
 				309E00F7243EB65700659EE0 /* 1.AssociatedObject */,
@@ -393,6 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845E44C624566ADA0009AF7E /* RunLoop5Controller.xib in Resources */,
 				84AD73EA243E1314000AD7B4 /* LaunchScreen.storyboard in Resources */,
 				302E10DD24400FEA00760CD0 /* Block1Controller.xib in Resources */,
 				84AE86BA24440E990043639C /* Runtime1Controller.xib in Resources */,
@@ -402,6 +464,7 @@
 				847717FF2455A21900364878 /* RunLoop4Controller.xib in Resources */,
 				84AD73E5243E1312000AD7B4 /* Main.storyboard in Resources */,
 				84AE86B12442D68A0043639C /* Block3Controller.xib in Resources */,
+				845E44D024568D940009AF7E /* GCD1Controller.xib in Resources */,
 				847717FA2455A1EE00364878 /* RunLoop3Controller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,9 +490,11 @@
 				844B4E75244ED780001BE9DD /* RunLoopController.m in Sources */,
 				847EEB44244725F20002098E /* MJPerson4.m in Sources */,
 				847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */,
+				845E44CF24568D940009AF7E /* GCD1Controller.m in Sources */,
 				847EEB50244749C00002098E /* NSArray+KKArr.m in Sources */,
 				309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */,
 				84AE86C62444A61C0043639C /* MJStudent.m in Sources */,
+				845E44C1245667CD0009AF7E /* LVThreadTool.m in Sources */,
 				84AE86C72444A61C0043639C /* MJGoodStudent.m in Sources */,
 				84AE86BD24444B5C0043639C /* Runtime2Controller.mm in Sources */,
 				302E10DC24400FEA00760CD0 /* Block1Controller.m in Sources */,
@@ -440,6 +505,7 @@
 				84AE86B924440E990043639C /* Runtime1Controller.m in Sources */,
 				84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */,
 				84AE86B02442D68A0043639C /* Block3Controller.m in Sources */,
+				845E44C524566ADA0009AF7E /* RunLoop5Controller.m in Sources */,
 				847717FE2455A21900364878 /* RunLoop4Controller.m in Sources */,
 				844B4E6D244E821F001BE9DD /* BaseModel.m in Sources */,
 				847EEB47244737690002098E /* Person5.m in Sources */,

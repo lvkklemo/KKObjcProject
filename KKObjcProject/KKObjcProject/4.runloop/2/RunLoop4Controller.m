@@ -47,7 +47,7 @@
 }
 - (IBAction)stopAction:(id)sender {
     if (!self.lvThread) return;
-    //waitUntilDone:YES子线程执行完毕,这个方法会f往下走
+    //waitUntilDone:YES子线程执行完毕,这个方法会往下走
     [self performSelector:@selector(stop) onThread:self.lvThread withObject:nil waitUntilDone:YES];
 }
 
