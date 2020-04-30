@@ -4,7 +4,13 @@
 //
 //  Created by 宇航 on 2020/4/27.
 //  Copyright © 2020 tecent. All rights reserved.
-//
+
+/*
+实现一个常驻线程
+为当前线程开启一个RunLoop
+向该RunLoop中添加一个Port/Source等维持RunLoop的事件循环
+启动该RunLoop
+*/
 
 #import "RunLoop5Controller.h"
 #import "LVThreadTool.h"

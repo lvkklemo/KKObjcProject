@@ -7,10 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
-#import "RunLoop3Controller.h"
-#import "GCD1Controller.h"
 
+#import "GCD2Controller.h"
 @interface AppDelegate ()
 
 @end
@@ -19,11 +17,10 @@
 
 //https://opensource.apple.com/tarballs/objc4/
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    GCD1Controller*vc = [[GCD1Controller alloc] init];
+    GCD2Controller*vc = [[GCD2Controller alloc] init];
     UINavigationController*nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
@@ -31,32 +28,21 @@
     return YES;
 }
 
-
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
-}
-
-
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-}
-
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-}
-
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-
 @end
+
+
+/*
+ //查看汇编 Product --Perform Action -- Assemble
+ //断点 Debug DebugWorkflow Always Show Disassemly
+ //转换为cpp  xcrun -sdk iphoneos clang -arch arm64 -rewrite-objc main.m -o main-arm64.cpp
+ 
+ //生成中间代码 clang -emit-llvm -S Person6.m
+ */
+
+/*
+ 实现一个常驻线程
+ 为当前线程开启一个RunLoop
+ 向该RunLoop中添加一个Port/Source等维持RunLoop的事件循环
+ 启动该RunLoop
+ */
+

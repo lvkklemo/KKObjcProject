@@ -30,11 +30,12 @@
         self.stoped = NO;
         __weak typeof(self) weakSelf = self;
         self.iThread = [[InnerThread alloc] initWithBlock:^{
+            NSLog(@"---start---%@",[NSThread currentThread]);
             [[NSRunLoop currentRunLoop] addPort:[[NSPort alloc]init] forMode:NSDefaultRunLoopMode];
             while (weakSelf&&!weakSelf.stoped) {
                  [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
             }
-           
+            NSLog(@"---start---%@",[NSThread currentThread]);
         }];
         [self.iThread start];
     }
