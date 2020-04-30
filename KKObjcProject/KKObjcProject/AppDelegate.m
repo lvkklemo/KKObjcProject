@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "GCD2Controller.h"
+#import "GCD3Controller.h"
 @interface AppDelegate ()
 
 @end
@@ -20,7 +20,7 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    GCD2Controller*vc = [[GCD2Controller alloc] init];
+    GCD3Controller*vc = [[GCD3Controller alloc] init];
     UINavigationController*nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
@@ -46,3 +46,8 @@
  启动该RunLoop
  */
 
+
+/*多线程访问资源 加锁
+ 1.OSSpinLock
+ 
+ */
