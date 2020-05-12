@@ -16,6 +16,9 @@
 		30F909CB2449444E00D100C7 /* Runtime6Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909CA2449444E00D100C7 /* Runtime6Controller.m */; };
 		30F909D624494C1700D100C7 /* MKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D524494C1700D100C7 /* MKPerson.m */; };
 		30F909D924494C2F00D100C7 /* MKCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D824494C2F00D100C7 /* MKCar.m */; };
+		840A1013245C1D1200C174DD /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A1011245C1D1200C174DD /* NSLockDemo.m */; };
+		840A1014245C1D1200C174DD /* NSLockDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840A1012245C1D1200C174DD /* NSLockDemo.xib */; };
+		840A1017245C291D00C174DD /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A1016245C291D00C174DD /* NSConditionDemo.m */; };
 		840F0F81245138CE00C5702F /* RunLoop1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F0F7F245138CE00C5702F /* RunLoop1Controller.m */; };
 		840F0F82245138CE00C5702F /* RunLoop1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840F0F80245138CE00C5702F /* RunLoop1Controller.xib */; };
 		844B4E69244E79F4001BE9DD /* Runtime7Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F909D224494B5C00D100C7 /* Runtime7Controller.m */; };
@@ -42,12 +45,17 @@
 		847EEB4A244737820002098E /* Runtime5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB49244737820002098E /* Runtime5Controller.m */; };
 		847EEB4D24473B9F0002098E /* Person3.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB4C24473B9F0002098E /* Person3.m */; };
 		847EEB50244749C00002098E /* NSArray+KKArr.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB4F244749C00002098E /* NSArray+KKArr.m */; };
+		8497FEBD2462615E00F7B595 /* DispatchSemaphoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497FEBC2462615E00F7B595 /* DispatchSemaphoreVC.m */; };
+		8497FEC024628AF400F7B595 /* AutomicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497FEBF24628AF400F7B595 /* AutomicVC.m */; };
+		8497FEC324639A6100F7B595 /* TimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497FEC224639A6100F7B595 /* TimerController.m */; };
+		8497FEC62463A28300F7B595 /* LVProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497FEC52463A28300F7B595 /* LVProxy.m */; };
+		8497FEC92463B08500F7B595 /* MJProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497FEC82463B08500F7B595 /* MJProxy.m */; };
+		8497FECE2463E56E00F7B595 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497FECD2463E56E00F7B595 /* GCDTimer.m */; };
 		84A6DC91245A5DF6004AF137 /* GCD3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DC90245A5DF6004AF137 /* GCD3Controller.m */; };
 		84A6DC94245A7C51004AF137 /* LVLockBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DC93245A7C51004AF137 /* LVLockBase.m */; };
 		84A6DC97245A85AD004AF137 /* OSSponLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DC96245A85AD004AF137 /* OSSponLockDemo.m */; };
 		84A6DC9A245A99D5004AF137 /* OSFairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DC99245A99D5004AF137 /* OSFairLockDemo.m */; };
 		84A6DC9D245AB3FF004AF137 /* PthreadMutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DC9C245AB3FF004AF137 /* PthreadMutexDemo.m */; };
-		84A6DCA0245AB8F2004AF137 /* PthreadMutexDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DC9F245AB8F2004AF137 /* PthreadMutexDemo2.m */; };
 		84AD73DF243E1312000AD7B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD73DE243E1312000AD7B4 /* AppDelegate.m */; };
 		84AD73E7243E1314000AD7B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AD73E6243E1314000AD7B4 /* Assets.xcassets */; };
 		84AD73EA243E1314000AD7B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD73E8243E1314000AD7B4 /* LaunchScreen.storyboard */; };
@@ -63,6 +71,11 @@
 		84AE86C72444A61C0043639C /* MJGoodStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86C52444A61C0043639C /* MJGoodStudent.m */; };
 		84F456B62457B6A600E921AA /* GCD2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F456B42457B6A600E921AA /* GCD2Controller.m */; };
 		84F456B72457B6A600E921AA /* GCD2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F456B52457B6A600E921AA /* GCD2Controller.xib */; };
+		84FA7583246A87F70069CC10 /* DESController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA7582246A87F70069CC10 /* DESController.m */; };
+		84FA7586246A88450069CC10 /* HQDes.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA7585246A88450069CC10 /* HQDes.m */; };
+		84FA7589246A889B0069CC10 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA7587246A889B0069CC10 /* GTMBase64.m */; };
+		84FA758D246A88C50069CC10 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA758A246A88C40069CC10 /* NSString+Trim.m */; };
+		84FA7590246A946D0069CC10 /* Qy3DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA758F246A946D0069CC10 /* Qy3DES.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +101,11 @@
 		30F909D524494C1700D100C7 /* MKPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKPerson.m; sourceTree = "<group>"; };
 		30F909D724494C2F00D100C7 /* MKCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCar.h; sourceTree = "<group>"; };
 		30F909D824494C2F00D100C7 /* MKCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCar.m; sourceTree = "<group>"; };
+		840A1010245C1D1200C174DD /* NSLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
+		840A1011245C1D1200C174DD /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
+		840A1012245C1D1200C174DD /* NSLockDemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSLockDemo.xib; sourceTree = "<group>"; };
+		840A1015245C291D00C174DD /* NSConditionDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionDemo.h; sourceTree = "<group>"; };
+		840A1016245C291D00C174DD /* NSConditionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
 		840F0F7E245138CE00C5702F /* RunLoop1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoop1Controller.h; sourceTree = "<group>"; };
 		840F0F7F245138CE00C5702F /* RunLoop1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoop1Controller.m; sourceTree = "<group>"; };
 		840F0F80245138CE00C5702F /* RunLoop1Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunLoop1Controller.xib; sourceTree = "<group>"; };
@@ -130,6 +148,18 @@
 		847EEB4C24473B9F0002098E /* Person3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person3.m; sourceTree = "<group>"; };
 		847EEB4E244749C00002098E /* NSArray+KKArr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+KKArr.h"; sourceTree = "<group>"; };
 		847EEB4F244749C00002098E /* NSArray+KKArr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KKArr.m"; sourceTree = "<group>"; };
+		8497FEBB2462615E00F7B595 /* DispatchSemaphoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispatchSemaphoreVC.h; sourceTree = "<group>"; };
+		8497FEBC2462615E00F7B595 /* DispatchSemaphoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispatchSemaphoreVC.m; sourceTree = "<group>"; };
+		8497FEBE24628AF400F7B595 /* AutomicVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutomicVC.h; sourceTree = "<group>"; };
+		8497FEBF24628AF400F7B595 /* AutomicVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomicVC.m; sourceTree = "<group>"; };
+		8497FEC124639A6100F7B595 /* TimerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerController.h; sourceTree = "<group>"; };
+		8497FEC224639A6100F7B595 /* TimerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerController.m; sourceTree = "<group>"; };
+		8497FEC42463A28300F7B595 /* LVProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVProxy.h; sourceTree = "<group>"; };
+		8497FEC52463A28300F7B595 /* LVProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVProxy.m; sourceTree = "<group>"; };
+		8497FEC72463B08500F7B595 /* MJProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJProxy.h; sourceTree = "<group>"; };
+		8497FEC82463B08500F7B595 /* MJProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJProxy.m; sourceTree = "<group>"; };
+		8497FECC2463E56E00F7B595 /* GCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		8497FECD2463E56E00F7B595 /* GCDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
 		84A6DC8F245A5DF6004AF137 /* GCD3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD3Controller.h; sourceTree = "<group>"; };
 		84A6DC90245A5DF6004AF137 /* GCD3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD3Controller.m; sourceTree = "<group>"; };
 		84A6DC92245A7C51004AF137 /* LVLockBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVLockBase.h; sourceTree = "<group>"; };
@@ -140,8 +170,6 @@
 		84A6DC99245A99D5004AF137 /* OSFairLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSFairLockDemo.m; sourceTree = "<group>"; };
 		84A6DC9B245AB3FF004AF137 /* PthreadMutexDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PthreadMutexDemo.h; sourceTree = "<group>"; };
 		84A6DC9C245AB3FF004AF137 /* PthreadMutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PthreadMutexDemo.m; sourceTree = "<group>"; };
-		84A6DC9E245AB8F2004AF137 /* PthreadMutexDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PthreadMutexDemo2.h; sourceTree = "<group>"; };
-		84A6DC9F245AB8F2004AF137 /* PthreadMutexDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PthreadMutexDemo2.m; sourceTree = "<group>"; };
 		84AD73DA243E1312000AD7B4 /* KKObjcProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKObjcProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AD73DD243E1312000AD7B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84AD73DE243E1312000AD7B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -169,6 +197,17 @@
 		84F456B32457B6A600E921AA /* GCD2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD2Controller.h; sourceTree = "<group>"; };
 		84F456B42457B6A600E921AA /* GCD2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD2Controller.m; sourceTree = "<group>"; };
 		84F456B52457B6A600E921AA /* GCD2Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCD2Controller.xib; sourceTree = "<group>"; };
+		84FA7581246A87F70069CC10 /* DESController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DESController.h; sourceTree = "<group>"; };
+		84FA7582246A87F70069CC10 /* DESController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DESController.m; sourceTree = "<group>"; };
+		84FA7584246A88450069CC10 /* HQDes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQDes.h; sourceTree = "<group>"; };
+		84FA7585246A88450069CC10 /* HQDes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQDes.m; sourceTree = "<group>"; };
+		84FA7587246A889B0069CC10 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		84FA7588246A889B0069CC10 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		84FA758A246A88C40069CC10 /* NSString+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trim.m"; sourceTree = "<group>"; };
+		84FA758B246A88C40069CC10 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		84FA758C246A88C50069CC10 /* NSString+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trim.h"; sourceTree = "<group>"; };
+		84FA758E246A946D0069CC10 /* Qy3DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qy3DES.h; sourceTree = "<group>"; };
+		84FA758F246A946D0069CC10 /* Qy3DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Qy3DES.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +341,8 @@
 		845E44C724568D010009AF7E /* 5.GCD */ = {
 			isa = PBXGroup;
 			children = (
+				8497FECB2463B63900F7B595 /* 5 */,
+				8497FECA2463B63900F7B595 /* 6 */,
 				845E44CB24568D010009AF7E /* 2lockdemo */,
 				845E44C824568D010009AF7E /* 1 */,
 				845E44C924568D010009AF7E /* 4 */,
@@ -333,6 +374,16 @@
 		845E44CA24568D010009AF7E /* 3 */ = {
 			isa = PBXGroup;
 			children = (
+				8497FEBE24628AF400F7B595 /* AutomicVC.h */,
+				8497FEBF24628AF400F7B595 /* AutomicVC.m */,
+				8497FEC124639A6100F7B595 /* TimerController.h */,
+				8497FEC224639A6100F7B595 /* TimerController.m */,
+				8497FEC42463A28300F7B595 /* LVProxy.h */,
+				8497FEC52463A28300F7B595 /* LVProxy.m */,
+				8497FEC72463B08500F7B595 /* MJProxy.h */,
+				8497FEC82463B08500F7B595 /* MJProxy.m */,
+				8497FECC2463E56E00F7B595 /* GCDTimer.h */,
+				8497FECD2463E56E00F7B595 /* GCDTimer.m */,
 			);
 			path = 3;
 			sourceTree = "<group>";
@@ -340,6 +391,7 @@
 		845E44CB24568D010009AF7E /* 2lockdemo */ = {
 			isa = PBXGroup;
 			children = (
+				840A1012245C1D1200C174DD /* NSLockDemo.xib */,
 				84A6DC8F245A5DF6004AF137 /* GCD3Controller.h */,
 				84A6DC90245A5DF6004AF137 /* GCD3Controller.m */,
 				84A6DC92245A7C51004AF137 /* LVLockBase.h */,
@@ -350,10 +402,28 @@
 				84A6DC99245A99D5004AF137 /* OSFairLockDemo.m */,
 				84A6DC9B245AB3FF004AF137 /* PthreadMutexDemo.h */,
 				84A6DC9C245AB3FF004AF137 /* PthreadMutexDemo.m */,
-				84A6DC9E245AB8F2004AF137 /* PthreadMutexDemo2.h */,
-				84A6DC9F245AB8F2004AF137 /* PthreadMutexDemo2.m */,
+				840A1010245C1D1200C174DD /* NSLockDemo.h */,
+				840A1011245C1D1200C174DD /* NSLockDemo.m */,
+				840A1015245C291D00C174DD /* NSConditionDemo.h */,
+				840A1016245C291D00C174DD /* NSConditionDemo.m */,
+				8497FEBB2462615E00F7B595 /* DispatchSemaphoreVC.h */,
+				8497FEBC2462615E00F7B595 /* DispatchSemaphoreVC.m */,
 			);
 			path = 2lockdemo;
+			sourceTree = "<group>";
+		};
+		8497FECA2463B63900F7B595 /* 6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 6;
+			sourceTree = "<group>";
+		};
+		8497FECB2463B63900F7B595 /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 5;
 			sourceTree = "<group>";
 		};
 		84AD73D1243E1312000AD7B4 = {
@@ -375,6 +445,7 @@
 		84AD73DC243E1312000AD7B4 /* KKObjcProject */ = {
 			isa = PBXGroup;
 			children = (
+				84FA7580246A87DA0069CC10 /* 3des */,
 				845E44C724568D010009AF7E /* 5.GCD */,
 				844B4E6E244EA420001BE9DD /* 4.runloop */,
 				84AE86B52442F52B0043639C /* 3.runtime */,
@@ -425,6 +496,24 @@
 				847EEB4F244749C00002098E /* NSArray+KKArr.m */,
 			);
 			path = 3.runtime;
+			sourceTree = "<group>";
+		};
+		84FA7580246A87DA0069CC10 /* 3des */ = {
+			isa = PBXGroup;
+			children = (
+				84FA7581246A87F70069CC10 /* DESController.h */,
+				84FA7582246A87F70069CC10 /* DESController.m */,
+				84FA7584246A88450069CC10 /* HQDes.h */,
+				84FA7585246A88450069CC10 /* HQDes.m */,
+				84FA7588246A889B0069CC10 /* GTMBase64.h */,
+				84FA7587246A889B0069CC10 /* GTMBase64.m */,
+				84FA758B246A88C40069CC10 /* GTMDefines.h */,
+				84FA758C246A88C50069CC10 /* NSString+Trim.h */,
+				84FA758A246A88C40069CC10 /* NSString+Trim.m */,
+				84FA758E246A946D0069CC10 /* Qy3DES.h */,
+				84FA758F246A946D0069CC10 /* Qy3DES.m */,
+			);
+			path = 3des;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -494,6 +583,7 @@
 				840F0F82245138CE00C5702F /* RunLoop1Controller.xib in Resources */,
 				847717FF2455A21900364878 /* RunLoop4Controller.xib in Resources */,
 				84AE86B12442D68A0043639C /* Block3Controller.xib in Resources */,
+				840A1014245C1D1200C174DD /* NSLockDemo.xib in Resources */,
 				845E44D024568D940009AF7E /* GCD1Controller.xib in Resources */,
 				847717FA2455A1EE00364878 /* RunLoop3Controller.xib in Resources */,
 			);
@@ -507,31 +597,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				844B4E69244E79F4001BE9DD /* Runtime7Controller.m in Sources */,
+				8497FEC324639A6100F7B595 /* TimerController.m in Sources */,
 				847718022455B4CC00364878 /* LVThread.m in Sources */,
 				84A6DC91245A5DF6004AF137 /* GCD3Controller.m in Sources */,
 				844B4E6A244E79F4001BE9DD /* Person6.m in Sources */,
 				84AE86C024444D6B0043639C /* MJPerson1.m in Sources */,
+				8497FECE2463E56E00F7B595 /* GCDTimer.m in Sources */,
 				84AD73ED243E1314000AD7B4 /* main.m in Sources */,
 				309E0102243EB65800659EE0 /* KKStudent.m in Sources */,
+				84FA7586246A88450069CC10 /* HQDes.m in Sources */,
 				30F909CB2449444E00D100C7 /* Runtime6Controller.m in Sources */,
-				84A6DCA0245AB8F2004AF137 /* PthreadMutexDemo2.m in Sources */,
 				847EEB4A244737820002098E /* Runtime5Controller.m in Sources */,
 				847717F92455A1EE00364878 /* RunLoop3Controller.m in Sources */,
 				84AE86B42442D6AF0043639C /* MJPerson.m in Sources */,
 				844B4E75244ED780001BE9DD /* RunLoopController.m in Sources */,
+				84FA7583246A87F70069CC10 /* DESController.m in Sources */,
 				847EEB44244725F20002098E /* MJPerson4.m in Sources */,
 				847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */,
 				845E44CF24568D940009AF7E /* GCD1Controller.m in Sources */,
 				84F456B62457B6A600E921AA /* GCD2Controller.m in Sources */,
+				8497FEC92463B08500F7B595 /* MJProxy.m in Sources */,
 				847EEB50244749C00002098E /* NSArray+KKArr.m in Sources */,
+				8497FEC024628AF400F7B595 /* AutomicVC.m in Sources */,
 				309E0100243EB65800659EE0 /* KKPerson+Test1.m in Sources */,
 				84AE86C62444A61C0043639C /* MJStudent.m in Sources */,
+				84FA7589246A889B0069CC10 /* GTMBase64.m in Sources */,
 				845E44C1245667CD0009AF7E /* LVThreadTool.m in Sources */,
 				84AE86C72444A61C0043639C /* MJGoodStudent.m in Sources */,
+				8497FEBD2462615E00F7B595 /* DispatchSemaphoreVC.m in Sources */,
 				84AE86BD24444B5C0043639C /* Runtime2Controller.mm in Sources */,
 				302E10DC24400FEA00760CD0 /* Block1Controller.m in Sources */,
+				840A1013245C1D1200C174DD /* NSLockDemo.m in Sources */,
 				30F909D624494C1700D100C7 /* MKPerson.m in Sources */,
 				840F0F81245138CE00C5702F /* RunLoop1Controller.m in Sources */,
+				840A1017245C291D00C174DD /* NSConditionDemo.m in Sources */,
 				8473EAAD2452BA4F005F5BC7 /* RunLoop2Controller.m in Sources */,
 				3009801124453DBB00CEAB2A /* Runtime3Controller.mm in Sources */,
 				84AE86B924440E990043639C /* Runtime1Controller.m in Sources */,
@@ -544,9 +643,12 @@
 				844B4E6D244E821F001BE9DD /* BaseModel.m in Sources */,
 				847EEB47244737690002098E /* Person5.m in Sources */,
 				847EEB4D24473B9F0002098E /* Person3.m in Sources */,
+				84FA758D246A88C50069CC10 /* NSString+Trim.m in Sources */,
 				847EEB3E2446E0F40002098E /* MJDog.m in Sources */,
+				8497FEC62463A28300F7B595 /* LVProxy.m in Sources */,
 				84A6DC9A245A99D5004AF137 /* OSFairLockDemo.m in Sources */,
 				30F909D924494C2F00D100C7 /* MKCar.m in Sources */,
+				84FA7590246A946D0069CC10 /* Qy3DES.m in Sources */,
 				84A6DC94245A7C51004AF137 /* LVLockBase.m in Sources */,
 				84718B202440441A00E397AE /* Block2Controller.m in Sources */,
 				309E0103243EB65800659EE0 /* KKPerson.m in Sources */,

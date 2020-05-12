@@ -8,6 +8,22 @@
 
 #import "PthreadMutexDemo.h"
 #import <pthread.h>
+
+
+/*
+ 什么时候使用自旋锁
+ 1.预计线程等待时间很短
+ 2.加锁代码经常被调用,竞争情况很少发生
+ 3.CPU资源不紧张
+ */
+
+/*
+ 互斥锁
+ 1.预计线程等待时间很长
+ 2.单核处理器
+ 3.加锁代码(临界区)有IO操作
+ 4.临界区竞争激烈
+ */
 @interface PthreadMutexDemo ()
 @property(assign,nonatomic) pthread_mutex_t lock_ticket;
 @property(assign,nonatomic) pthread_mutex_t lock_money;
@@ -24,7 +40,6 @@
 //    pthread_mutex_init(mutex, &attr);
 //    ///销毁属性
 //    pthread_mutexattr_destroy(&attr);
-    
     pthread_mutex_init(mutex, NULL);
 }
 - (instancetype)init

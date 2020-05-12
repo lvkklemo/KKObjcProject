@@ -10,6 +10,8 @@
 #import "OSSponLockDemo.h"
 #import "OSFairLockDemo.h"
 #import "PthreadMutexDemo.h"
+#import "NSLockDemo.h"
+#import "NSConditionDemo.h"
 
 @interface GCD3Controller ()
 
@@ -21,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self test3];
+    [self test5];
 }
 
 - (void)test1{
@@ -40,6 +42,18 @@
     LVLockBase * lockBase = [[PthreadMutexDemo alloc] init];
     //[lockBase ticketTest];
     [lockBase moneyTest];
+}
+
+//NSLockDemo
+- (void)test4{
+    LVLockBase * lockBase = [[NSLockDemo alloc] init];
+    [lockBase ticketTest];
+    //[lockBase moneyTest];
+}
+
+- (void)test5{
+    NSConditionDemo * lockBase = [[NSConditionDemo alloc] init];
+    [lockBase otherTest];
 }
 @end
 

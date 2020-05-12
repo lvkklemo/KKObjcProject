@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
-
 #import "GCD3Controller.h"
+#import "DispatchSemaphoreVC.h"
+#import "AutomicVC.h"
+#import "TimerController.h"
+#import "DESController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,7 +24,7 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    GCD3Controller*vc = [[GCD3Controller alloc] init];
+    DESController*vc = [[DESController alloc] init];
     UINavigationController*nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
@@ -49,5 +53,10 @@
 
 /*多线程访问资源 加锁
  1.OSSpinLock
- 
+ !! dispatch_semaphore_t信号量控制最大并发数,和实现线程同步技术
+ */
+
+
+/*
+ 190多线程读写安全
  */

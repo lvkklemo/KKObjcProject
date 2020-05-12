@@ -8,7 +8,7 @@
 
 #import "OSSponLockDemo.h"
 #import<libkern/OSAtomic.h>
-
+//自旋锁
 @interface OSSponLockDemo ()
 //@property (assign, nonatomic) OSSpinLock lock_ticket;
 @property (assign, nonatomic) OSSpinLock lock_money;
