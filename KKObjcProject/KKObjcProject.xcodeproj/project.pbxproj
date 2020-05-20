@@ -38,6 +38,7 @@
 		847717FE2455A21900364878 /* RunLoop4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 847717FC2455A21900364878 /* RunLoop4Controller.m */; };
 		847717FF2455A21900364878 /* RunLoop4Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847717FD2455A21900364878 /* RunLoop4Controller.xib */; };
 		847718022455B4CC00364878 /* LVThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 847718012455B4CC00364878 /* LVThread.m */; };
+		847B235D246CF7B600B28CE7 /* CopyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847B235C246CF7B600B28CE7 /* CopyController.m */; };
 		847EEB3E2446E0F40002098E /* MJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB3D2446E0F40002098E /* MJDog.m */; };
 		847EEB41244725BE0002098E /* Runtime4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB40244725BE0002098E /* Runtime4Controller.m */; };
 		847EEB44244725F20002098E /* MJPerson4.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EEB43244725F20002098E /* MJPerson4.m */; };
@@ -69,6 +70,7 @@
 		84AE86C024444D6B0043639C /* MJPerson1.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86BF24444D6B0043639C /* MJPerson1.m */; };
 		84AE86C62444A61C0043639C /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86C42444A61C0043639C /* MJStudent.m */; };
 		84AE86C72444A61C0043639C /* MJGoodStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE86C52444A61C0043639C /* MJGoodStudent.m */; };
+		84CBAED924703E010015460D /* Person10.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBAED824703E010015460D /* Person10.m */; };
 		84F456B62457B6A600E921AA /* GCD2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F456B42457B6A600E921AA /* GCD2Controller.m */; };
 		84F456B72457B6A600E921AA /* GCD2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F456B52457B6A600E921AA /* GCD2Controller.xib */; };
 		84FA7583246A87F70069CC10 /* DESController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA7582246A87F70069CC10 /* DESController.m */; };
@@ -134,6 +136,8 @@
 		847717FD2455A21900364878 /* RunLoop4Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunLoop4Controller.xib; sourceTree = "<group>"; };
 		847718002455B4CC00364878 /* LVThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVThread.h; sourceTree = "<group>"; };
 		847718012455B4CC00364878 /* LVThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVThread.m; sourceTree = "<group>"; };
+		847B235B246CF7B600B28CE7 /* CopyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyController.h; sourceTree = "<group>"; };
+		847B235C246CF7B600B28CE7 /* CopyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyController.m; sourceTree = "<group>"; };
 		847EEB3C2446E0F40002098E /* MJDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJDog.h; sourceTree = "<group>"; };
 		847EEB3D2446E0F40002098E /* MJDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJDog.m; sourceTree = "<group>"; };
 		847EEB3F244725BE0002098E /* Runtime4Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime4Controller.h; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 		84AE86C32444A61C0043639C /* MJGoodStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGoodStudent.h; sourceTree = "<group>"; };
 		84AE86C42444A61C0043639C /* MJStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJStudent.m; sourceTree = "<group>"; };
 		84AE86C52444A61C0043639C /* MJGoodStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGoodStudent.m; sourceTree = "<group>"; };
+		84CBAED724703E010015460D /* Person10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person10.h; sourceTree = "<group>"; };
+		84CBAED824703E010015460D /* Person10.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person10.m; sourceTree = "<group>"; };
 		84F456B32457B6A600E921AA /* GCD2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD2Controller.h; sourceTree = "<group>"; };
 		84F456B42457B6A600E921AA /* GCD2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD2Controller.m; sourceTree = "<group>"; };
 		84F456B52457B6A600E921AA /* GCD2Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCD2Controller.xib; sourceTree = "<group>"; };
@@ -412,6 +418,25 @@
 			path = 2lockdemo;
 			sourceTree = "<group>";
 		};
+		847B2359246CF79700B28CE7 /* 内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+				847B235A246CF79B00B28CE7 /* copy */,
+			);
+			path = "内存管理";
+			sourceTree = "<group>";
+		};
+		847B235A246CF79B00B28CE7 /* copy */ = {
+			isa = PBXGroup;
+			children = (
+				847B235B246CF7B600B28CE7 /* CopyController.h */,
+				847B235C246CF7B600B28CE7 /* CopyController.m */,
+				84CBAED724703E010015460D /* Person10.h */,
+				84CBAED824703E010015460D /* Person10.m */,
+			);
+			path = copy;
+			sourceTree = "<group>";
+		};
 		8497FECA2463B63900F7B595 /* 6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -445,6 +470,7 @@
 		84AD73DC243E1312000AD7B4 /* KKObjcProject */ = {
 			isa = PBXGroup;
 			children = (
+				847B2359246CF79700B28CE7 /* 内存管理 */,
 				84FA7580246A87DA0069CC10 /* 3des */,
 				845E44C724568D010009AF7E /* 5.GCD */,
 				844B4E6E244EA420001BE9DD /* 4.runloop */,
@@ -630,6 +656,7 @@
 				840A1013245C1D1200C174DD /* NSLockDemo.m in Sources */,
 				30F909D624494C1700D100C7 /* MKPerson.m in Sources */,
 				840F0F81245138CE00C5702F /* RunLoop1Controller.m in Sources */,
+				847B235D246CF7B600B28CE7 /* CopyController.m in Sources */,
 				840A1017245C291D00C174DD /* NSConditionDemo.m in Sources */,
 				8473EAAD2452BA4F005F5BC7 /* RunLoop2Controller.m in Sources */,
 				3009801124453DBB00CEAB2A /* Runtime3Controller.mm in Sources */,
@@ -650,6 +677,7 @@
 				30F909D924494C2F00D100C7 /* MKCar.m in Sources */,
 				84FA7590246A946D0069CC10 /* Qy3DES.m in Sources */,
 				84A6DC94245A7C51004AF137 /* LVLockBase.m in Sources */,
+				84CBAED924703E010015460D /* Person10.m in Sources */,
 				84718B202440441A00E397AE /* Block2Controller.m in Sources */,
 				309E0103243EB65800659EE0 /* KKPerson.m in Sources */,
 			);
